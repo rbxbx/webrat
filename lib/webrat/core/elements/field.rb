@@ -69,7 +69,7 @@ module Webrat
 
     def label_text
       return nil if labels.empty?
-      labels.first.text
+      labels.first.element.text
     end
 
     def id
